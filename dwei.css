@@ -1,0 +1,149 @@
+html {
+	FONT-SIZE: 100%; BACKGROUND: #fff; -MS-TEXT-SIZE-ADJUST: 100%; -webkit-text-size-adjust: 100%
+}
+
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header header"
+    "nav article ads blanc"
+    "footer footer footer footer";
+  grid-template-rows: 100px 1fr 22px;  
+  grid-template-columns: 15% 41% 10% 10%;
+  grid-row-gap: 20px;
+  grid-column-gap: 8%;
+  height: 100vh;
+  margin: 0;
+  /* DWei font setting */
+  FONT-SIZE: 15px; 
+  FONT-FAMILY: Georgia; 
+  COLOR: #222;
+  }  
+header{
+  background: #1D8348;
+  }
+footer{
+  background: #1D8348;
+  }
+ads{
+  background: #660066;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads;
+  FONT-SIZE: 13pt; 
+  BACKGROUND: #FFFAFA; 
+  FLOAT: right; 
+  PADDING-BOTTOM: 15px; 
+  PADDING-TOP: 0px; 
+  PADDING-LEFT: 10px; 
+  PADDING-RIGHT: 10px; 
+  MARGIN-TOP: 0px; 
+  WIDTH: 200px
+  } 
+  
+#siteAds .easylink {
+	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+#rightBlanc {
+  grid-area: blanc;
+  }
+ 
+  
+ /* styles */
+
+H0 {
+	FONT-SIZE: 30px;  display:inline-block;
+}
+H1 {
+	FONT-SIZE: 25px; PADDING-TOP: 15px; display:inline-block;   
+}
+H2 {
+	FONT-SIZE: 20px; PADDING-TOP: 15px; display:inline-block;   
+}
+H3 {
+	DISPLAY: bold
+}
+P  {
+	MARGIN: 10px 40px 10px 10px
+}
+hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 1px dashed #ccc;
+    margin: 0em auto;
+    padding: 0;
+}
+
+
+a:link {
+color:#483D8B;
+text-decoration:none;
+}
+a:visited {
+color:#6600cc;
+text-decoration:none;
+}
+a:hover {
+color:#ffaa80;
+text-decoration:none;
+}
+a:active {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.tablink:link{
+	color:#000000;
+}
+.tablink:visited{
+	color:#000000;
+}
+.tablink:active {
+color:#000000;
+}
+.tablink:hover{
+	color:inherit;
+}
+
+TABLE {
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; FONT-SIZE: 13px; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; WIDTH: 680px; BACKGROUND-COLOR: #FFFAFA;
+}
+.left {
+	FONT-SIZE: 10px; TEXT-ALIGN: center; WIDTH: 40px; BACKGROUND-COLOR: #F0FFF0
+}
+.footab {
+	background-color: #1D8348;
+	width: 100%;
+	border: 0px;
+	font-size: 13px;
+	font-family: "Courier New";
+	color: #1D8340;
+}
+  
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+	  "blanc"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
