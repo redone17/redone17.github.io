@@ -65,7 +65,7 @@ content="Dongdong Wei, PhD, stduent, Reliability, Research, Mechanical, Engineer
 	He was a TA at <A href="http://www.gla.uestc.edu.cn/english/Home.htm">Glasgow College, UESTC</A>. </P>
 	-->
 
-	<P> Apart from work and research, Dongdong loves goes into beautiful Rocky Mountains for hiking in summer time and skiing during long winters of Alberta. 
+	<P> Apart from work and research, Dongdong loves to go into beautiful Rocky Mountains for hiking in summer time and skiing during long winters of Alberta. 
 	He also enjoys music and played tenor roles in UofA Concert Choir and UESTC Choir. </P>
 	</DIV>
 	
@@ -156,6 +156,37 @@ content="Dongdong Wei, PhD, stduent, Reliability, Research, Mechanical, Engineer
   <font size=3px>
   <B>24 Sep 2019</B><BR>
   <span class=easylink>Our team Angler won the 3rd place in <a href="https://www.phmdata.org/2019-phm-conference-data-challenge-team-results/">PHM Data Challenge</a>!</span><BR><BR>
+  
+  <B>28 Jul 2019</B> <button id="RRL-Jasper-button">picture</button><BR>
+  <!-- The Modal -->
+  <div id="RRL-Jasper-modal" class="modal">
+	<!-- Modal content -->
+	<div class="modal-content" id="RRL-Jasper-image">
+	  <span class="close">&times;</span>
+	  <img src="./pics/RRL-Jasper2019.jpg" alt="RRL Jasper camping trip" style="width:100%;max-width:1024px">
+    </div>
+  </div>
+  <script>
+		// Get the modal
+		var modal = document.getElementById("RRL-Jasper-modal");
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var btn = document.getElementById("RRL-Jasper-button");
+		var modalImg = document.getElementById("RRL-Jasper-image");
+		var captionText = document.getElementById("caption");
+		btn.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
+  <span class=easylink>I organized our RRL group camping trip to Japser National Park!</span><BR><BR>
+
   <B>21 Jun 2019</B><BR>
   <span class=easylink>I played a walk-on role in UofA Mechanical Engineering <a href="https://youtu.be/ROjg7JOpvr8?t=131">promo video</a></span><BR><BR>
   <B>4 Sep 2018</B><BR>
