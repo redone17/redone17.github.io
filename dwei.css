@@ -121,6 +121,19 @@ color:#000000;
 TABLE {
 	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px;  FONT-SIZE: 1.0em; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; WIDTH: auto; BACKGROUND-COLOR: #FFFFF;
 }
+
+div.left {
+    float: left;
+    clear: both;
+	FONT-SIZE: 0.8em; TEXT-ALIGN: center; WIDTH: 40px; BACKGROUND-COLOR: #F0FFF0
+}
+div.right {
+    float: right;
+    clear: both;
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px;  FONT-SIZE: 1.0em; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; WIDTH: auto; BACKGROUND-COLOR: #FFFFF;
+}
+
+
 .left {
 	FONT-SIZE: 0.8em; TEXT-ALIGN: center; WIDTH: 40px; BACKGROUND-COLOR: #F0FFF0
 }
