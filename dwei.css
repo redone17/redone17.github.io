@@ -9,13 +9,13 @@ body {
     "nav article ads blanc"
     "footer footer footer footer";
   grid-template-rows: auto auto auto;  
-  grid-template-columns: auto 50% 10%;
+  grid-template-columns: auto 45% 10%;
   grid-row-gap: 20px;
   grid-column-gap: 50px;
   height: 100vh;
   margin: 0;
   /* DWei font setting */
-  FONT-SIZE: 15px; 
+  FONT-SIZE: 1.0em; 
   FONT-FAMILY: Georgia; 
   COLOR: #222;
   }  
@@ -42,7 +42,7 @@ ads{
   }
 #siteAds { 
   grid-area: ads;
-  FONT-SIZE: 13pt; 
+  FONT-SIZE: 1.2em; 
   BACKGROUND: #FFFAFA; 
   FLOAT: right; 
   PADDING-BOTTOM: 15px; 
@@ -54,7 +54,7 @@ ads{
   } 
   
 #siteAds .easylink {
-	FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+	FONT-SIZE: 0.9em; FONT-WEIGHT: normal
 }
 #rightBlanc {
   grid-area: blanc;
@@ -64,13 +64,13 @@ ads{
  /* styles */
 
 H0 {
-	FONT-SIZE: 30px;  display:inline-block;
+	FONT-SIZE: 1.8em;  display:inline-block;
 }
 H1 {
-	FONT-SIZE: 25px; PADDING-TOP: 15px; display:inline-block;   
+	FONT-SIZE: 1.5em; PADDING-TOP: 15px; display:inline-block;   
 }
 H2 {
-	FONT-SIZE: 20px; PADDING-TOP: 15px; display:inline-block;   
+	FONT-SIZE: 1.3em; PADDING-TOP: 15px; display:inline-block;   
 }
 H3 {
 	DISPLAY: bold
@@ -119,10 +119,10 @@ color:#000000;
 }
 
 TABLE {
-	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; FONT-SIZE: 13px; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; WIDTH: 680px; BACKGROUND-COLOR: #FFFAFA;
+	MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px;  FONT-SIZE: 1.0em; BORDER-COLLAPSE: collapse; TEXT-ALIGN: left; WIDTH: auto; BACKGROUND-COLOR: #FFFFF;
 }
 .left {
-	FONT-SIZE: 10px; TEXT-ALIGN: center; WIDTH: 40px; BACKGROUND-COLOR: #F0FFF0
+	FONT-SIZE: 0.8em; TEXT-ALIGN: center; WIDTH: 40px; BACKGROUND-COLOR: #F0FFF0
 }
 .footab {
 	background-color: #1D8348;
@@ -228,7 +228,7 @@ button:hover {
   top: 15px;
   right: 35px;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 5.0em;
   font-weight: bold;
   transition: 0.3s;
 }
